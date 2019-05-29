@@ -1,5 +1,33 @@
-* {
+
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.ogg{
+  display: inline;
+  border: 1px solid black;
+  position: relative;
+}
+.red{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+}
+.green{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: green;
+}
+span img{
+  height: 30px;
+  width:30px;
+  position: absolute;
+  z-index: 20;
+  left: 50%;
+  bottom: 0;
+
 }
